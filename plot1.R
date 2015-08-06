@@ -30,7 +30,7 @@ plot1 <- function(){
   ## output the plot Global Active Power to PNG
   
   #open the png device, set options
-  png("plot1.png", height=480, width=480, units = "px")
+  png("plot1.png", height=480, width=480, units = "px", bg = "transparent")
   
   #plot
   hist(dfPower$Global_active_power, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")

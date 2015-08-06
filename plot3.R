@@ -30,7 +30,7 @@ plot3 <- function(){
   ## output the plot Energy Sub Metering 1,2,3 over Time to PNG
   
   #open the png device, set options
-  png("plot3.png", height=480, width=480, units = "px")
+  png("plot3.png", height=480, width=480, units = "px", bg = "transparent")
   
   #plot
   ylimits = range(c(dfPower$Sub_metering_1, dfPower$Sub_metering_2, dfPower$Sub_metering_3))

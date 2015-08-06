@@ -30,7 +30,7 @@ plot2 <- function(){
   ## output the plot Global Active Power over Time to PNG
   
   #open the png device, set options
-  png("plot2.png", height=480, width=480, units = "px")
+  png("plot2.png", height=480, width=480, units = "px", bg = "transparent")
   
   #plot
   plot(dfPower$Time, dfPower$Global_active_power, xlab="", ylab="Global Active Power (kilowatts)", type="l")

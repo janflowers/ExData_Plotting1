@@ -30,7 +30,7 @@ plot4 <- function(){
   ## output the multiple plots to PNG
   
   #open the png device, set options
-  png("plot4.png", height=480, width=480, units = "px")
+  png("plot4.png", height=480, width=480, units = "px", bg = "transparent")
   
   #plot
   par(mfrow = c(2,2))
